@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0155F5BB28C95AB3008E13B0 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155F5BA28C95AB3008E13B0 /* PageModel.swift */; };
+		0155F5BD28C95B03008E13B0 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0155F5BC28C95B03008E13B0 /* PageData.swift */; };
 		01C5509928C705EC00FBC1AD /* Pinch_ZoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C5509828C705EC00FBC1AD /* Pinch_ZoomApp.swift */; };
 		01C5509B28C705EC00FBC1AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C5509A28C705EC00FBC1AD /* ContentView.swift */; };
 		01C5509D28C705EE00FBC1AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C5509C28C705EE00FBC1AD /* Assets.xcassets */; };
 		01C550A028C705EE00FBC1AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C5509F28C705EE00FBC1AD /* Preview Assets.xcassets */; };
+		01C550AD28C71E8900FBC1AD /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C550AC28C71E8900FBC1AD /* InfoPanelView.swift */; };
+		01C550AF28C818A000FBC1AD /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C550AE28C818A000FBC1AD /* ControlImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0155F5BA28C95AB3008E13B0 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		0155F5BC28C95B03008E13B0 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
 		01C5509528C705EC00FBC1AD /* Pinch&Zoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pinch&Zoom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C5509828C705EC00FBC1AD /* Pinch_ZoomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_ZoomApp.swift; sourceTree = "<group>"; };
 		01C5509A28C705EC00FBC1AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01C5509C28C705EE00FBC1AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01C5509F28C705EE00FBC1AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		01C550AC28C71E8900FBC1AD /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		01C550AE28C818A000FBC1AD /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 		01C550A728C7087000FBC1AD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				01C550AC28C71E8900FBC1AD /* InfoPanelView.swift */,
+				01C550AE28C818A000FBC1AD /* ControlImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,6 +98,7 @@
 		01C550A828C7089200FBC1AD /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0155F5BA28C95AB3008E13B0 /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,6 +106,7 @@
 		01C550A928C708A600FBC1AD /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				0155F5BC28C95B03008E13B0 /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -169,8 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C550AF28C818A000FBC1AD /* ControlImageView.swift in Sources */,
+				0155F5BB28C95AB3008E13B0 /* PageModel.swift in Sources */,
 				01C5509B28C705EC00FBC1AD /* ContentView.swift in Sources */,
 				01C5509928C705EC00FBC1AD /* Pinch_ZoomApp.swift in Sources */,
+				0155F5BD28C95B03008E13B0 /* PageData.swift in Sources */,
+				01C550AD28C71E8900FBC1AD /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
